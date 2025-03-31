@@ -1,0 +1,51 @@
+# -----------------------------
+# Rust build artifacts
+# -----------------------------
+# Cargo's build output folder. This directory contains compiled code,
+# temporary files, and other artifacts that are automatically generated.
+target/
+
+# Cargo lock file (optional)
+# For applications, Cargo.lock is typically committed, but for libraries it might be ignored.
+Cargo.lock
+
+# -----------------------------
+# C/C++ build artifacts
+# -----------------------------
+# Object files created during C compilation
+*.o
+
+# Static libraries (archive files) generated from compilation
+*.a
+
+# Shared libraries (dynamic libraries)
+*.so
+*.dll
+*.dylib
+
+# Executable files (if built as output)
+main
+main.exe
+
+# Debugging symbols directory on macOS
+*.dSYM/
+
+# -----------------------------
+# Editor and IDE settings
+# -----------------------------
+# Visual Studio Code settings
+.vscode/
+
+# JetBrains IDEs (like CLion or IntelliJ)
+.idea/
+
+# Other editor temporary files
+*~
+*.swp
+*.swo
+
+# -----------------------------
+# OS-specific files
+# -----------------------------
+.DS_Store
+Thumbs.db
